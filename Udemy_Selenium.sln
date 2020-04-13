@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section_4", "Section_4\Section_4.csproj", "{0552CC5B-A0A6-4BAC-AA63-C653982244E9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit_testing_project_4", "Unit_testing_project_4\Unit_testing_project_4.csproj", "{0552CC5B-A0A6-4BAC-AA63-C653982244E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section_5", "Section_5\Section_5.csproj", "{6DEDB227-A48A-4BC5-A41B-DE69D3A0CC41}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Equal_and_relation_operations_5", "Equal_and_relation_operations_5\Equal_and_relation_operations_5.csproj", "{6DEDB227-A48A-4BC5-A41B-DE69D3A0CC41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section_6", "Section_6\Section_6.csproj", "{E57B039D-8B7B-4E15-AF4D-AA65BD9796F4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes_and_methods_6", "Classes_and_methods_6\Classes_and_methods_6.csproj", "{E57B039D-8B7B-4E15-AF4D-AA65BD9796F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repetition_8", "Repetition_8\Repetition_8.csproj", "{DB38F489-A77B-442D-9B8D-7C1E5E6C5550}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,5 +27,9 @@ Global
 		{E57B039D-8B7B-4E15-AF4D-AA65BD9796F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E57B039D-8B7B-4E15-AF4D-AA65BD9796F4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E57B039D-8B7B-4E15-AF4D-AA65BD9796F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB38F489-A77B-442D-9B8D-7C1E5E6C5550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB38F489-A77B-442D-9B8D-7C1E5E6C5550}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB38F489-A77B-442D-9B8D-7C1E5E6C5550}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB38F489-A77B-442D-9B8D-7C1E5E6C5550}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

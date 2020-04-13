@@ -1,7 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Diagnostics;
 
-namespace Section_4
+namespace Unit_testing_project_4
 {
     [TestClass]
     [TestCategory("Quiz")]
