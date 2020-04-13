@@ -57,10 +57,12 @@ namespace Repetition_8
         public void Nested_Loops_Practice()
         {
             int outerLoopCounter = 0;
-            int innerLoolCounter = 10;
+
 
             while (outerLoopCounter < 3)
             {
+                int innerLoolCounter = 10;
+
                 while (innerLoolCounter > 5)
                 {
                     Console.WriteLine($"Outer: {outerLoopCounter} \t Inner: {innerLoolCounter}");
@@ -68,7 +70,6 @@ namespace Repetition_8
                 }
 
                 outerLoopCounter++;
-                innerLoolCounter = 10;
             }
         }
     }
