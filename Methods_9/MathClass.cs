@@ -6,5 +6,10 @@ namespace Methods_9
         {
             return value * value;
         }
+        
+        public static int Add(int number1 = 5, int number2 = 10)
+        {
+            return number1 + number2;
+        }
     }
 }
