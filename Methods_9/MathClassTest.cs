@@ -42,5 +42,23 @@ namespace Methods_9
 
             int sum9 = MathClass.Add(number2: 4);
         }
+
+
+        [TestMethod]
+        public void Test_Out_Parameter()
+        {
+            int result;
+            MathClass.SunWithOut(5,4, out result);
+            Assert.AreEqual(9,result);
+        }       
+        
+        [TestMethod]
+        public void Test_Ref_Parameter()
+        {
+            int result = 0;
+            
+            MathClass.NumbersRef(ref result);
+            Assert.AreEqual(7,result);
+        }
     }
 }
