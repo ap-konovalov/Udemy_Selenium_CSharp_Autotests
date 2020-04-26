@@ -7,7 +7,7 @@ namespace Methods_9.SectionExam
     {
         private const decimal IncreaseAllPropertyAssessedPercentage = 2.7M;
         private const decimal taxExemption = 25000M;
-        private const decimal millageRatePerEvery1000 = 10.3M;
+        private const decimal millageRatePerEvery1000 = 10.03M;
 
         private readonly string _propertyAddress;
         private readonly decimal _lastYearAssessedValue;
