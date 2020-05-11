@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays_and_Lists_10", "Arra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array_Coding_Quiz_10", "Array_Coding_Quiz_10\Array_Coding_Quiz_10.csproj", "{5F9F3E57-92A5-4364-8AE5-1C0E08CDFBCA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advanced_OO_Topics_11", "Advanced_OO_Topics_11\Advanced_OO_Topics_11.csproj", "{69471BB6-1949-4DA2-BA4E-F5BE2BF54C50}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,5 +51,9 @@ Global
 		{5F9F3E57-92A5-4364-8AE5-1C0E08CDFBCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F9F3E57-92A5-4364-8AE5-1C0E08CDFBCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F9F3E57-92A5-4364-8AE5-1C0E08CDFBCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69471BB6-1949-4DA2-BA4E-F5BE2BF54C50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69471BB6-1949-4DA2-BA4E-F5BE2BF54C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69471BB6-1949-4DA2-BA4E-F5BE2BF54C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69471BB6-1949-4DA2-BA4E-F5BE2BF54C50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
