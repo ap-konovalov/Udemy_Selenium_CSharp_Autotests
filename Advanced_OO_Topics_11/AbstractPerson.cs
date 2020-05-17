@@ -10,7 +10,7 @@ namespace Advanced_OO_Topics_11
         private int _age;
         protected DateTime _dateOfBirth;
 
-        public AbstractPerson(string id, string lastName, string firstName, int age, DateTime dateOfBirth)
+        protected AbstractPerson(string id, string lastName, string firstName, int age, DateTime dateOfBirth)
         {
             _id = id;
             _lastName = lastName;
