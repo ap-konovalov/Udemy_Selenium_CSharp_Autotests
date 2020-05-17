@@ -2,10 +2,10 @@ using System;
 
 namespace Advanced_OO_Topics_11.CodingQuiz
 {
-    public class PlayEvent : Ticket
+    public class PlayEventTicket : BaseTicket
     {
         public string gameName;
-        public PlayEvent(double price, int place, DateTime dateOfEvent, string gameName) : base(price, place, dateOfEvent)
+        public PlayEventTicket(double price, int place, DateTime dateOfEvent, string gameName) : base(price, place, dateOfEvent)
         {
             this.gameName = gameName;
         }

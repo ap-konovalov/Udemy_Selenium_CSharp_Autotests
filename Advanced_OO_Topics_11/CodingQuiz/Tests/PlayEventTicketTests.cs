@@ -3,7 +3,7 @@ using NUnit.Framework;
 
 namespace Advanced_OO_Topics_11.CodingQuiz
 {
-    public class PlayEventTests
+    public class PlayEventTicketTests
     {
         private double _price;
         private int _place;
@@ -22,7 +22,7 @@ namespace Advanced_OO_Topics_11.CodingQuiz
         [Test]
         public void WhenSetPlayEvent_ThenEventTypeIsPlayEvent()
         {
-            PlayEvent amazingGame = new PlayEvent(_price, _place, _dateOfEvent, _gameName);
+            PlayEventTicket amazingGame = new PlayEventTicket(_price, _place, _dateOfEvent, _gameName);
 
             Assert.AreEqual("Play event", amazingGame.EventType);
         }
@@ -30,7 +30,7 @@ namespace Advanced_OO_Topics_11.CodingQuiz
         [Test]
         public void WhenSetPlayEvent_ThenGameNameSet()
         {
-            PlayEvent amazingGame = new PlayEvent(_price, _place, _dateOfEvent, _gameName);
+            PlayEventTicket amazingGame = new PlayEventTicket(_price, _place, _dateOfEvent, _gameName);
 
             Assert.AreEqual(_gameName, amazingGame.gameName);
         }
@@ -38,7 +38,7 @@ namespace Advanced_OO_Topics_11.CodingQuiz
         [Test]
         public void WhenSetPlayEvent_ThenToStringMethodOverriden()
         {
-            PlayEvent amazingGame = new PlayEvent(_price, _place, _dateOfEvent, _gameName);
+            PlayEventTicket amazingGame = new PlayEventTicket(_price, _place, _dateOfEvent, _gameName);
 
             Assert.True(amazingGame.ToString().Contains("Game name: CS 1.6"));
         }

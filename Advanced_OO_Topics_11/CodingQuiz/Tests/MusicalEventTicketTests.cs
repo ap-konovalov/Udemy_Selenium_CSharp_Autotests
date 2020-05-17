@@ -3,7 +3,7 @@ using NUnit.Framework;
 
 namespace Advanced_OO_Topics_11.CodingQuiz
 {
-    public class MusicalEventTests
+    public class MusicalEventTicketTests
     {
         private double _price;
         private int _place;

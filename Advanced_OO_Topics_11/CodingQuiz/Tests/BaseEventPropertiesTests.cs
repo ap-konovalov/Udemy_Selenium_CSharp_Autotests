@@ -23,7 +23,7 @@ namespace Advanced_OO_Topics_11.CodingQuiz
         [Test]
         public void WhenSetEvent_ThenEventPriceSet()
         {
-            PlayEvent amazingGame = new PlayEvent(_price, _place, _dateOfEvent, _gameName);
+            PlayEventTicket amazingGame = new PlayEventTicket(_price, _place, _dateOfEvent, _gameName);
             
             Assert.AreEqual(_price, amazingGame.GetPrice());
         }       
@@ -31,7 +31,7 @@ namespace Advanced_OO_Topics_11.CodingQuiz
         [Test]
         public void WhenSetEvent_ThenEventPlaceSet()
         {
-            PlayEvent amazingGame = new PlayEvent(_price, _place, _dateOfEvent, _gameName);
+            PlayEventTicket amazingGame = new PlayEventTicket(_price, _place, _dateOfEvent, _gameName);
             
             Assert.AreEqual(_place, amazingGame.GetPlace());
         }       
@@ -39,7 +39,7 @@ namespace Advanced_OO_Topics_11.CodingQuiz
         [Test]
         public void WhenSetEvent_ThenDateOfEventSet()
         {
-            PlayEvent amazingGame = new PlayEvent(_price, _place, _dateOfEvent, _gameName);
+            PlayEventTicket amazingGame = new PlayEventTicket(_price, _place, _dateOfEvent, _gameName);
             
             Assert.AreEqual(_dateOfEvent, amazingGame.GetDateOfEvent());
         }
@@ -47,7 +47,7 @@ namespace Advanced_OO_Topics_11.CodingQuiz
         [Test]
         public void WhenSetEvent_ThenToStringMethodOverriden()
         {
-            PlayEvent amazingGame = new PlayEvent(_price, _place, _dateOfEvent, _gameName);
+            PlayEventTicket amazingGame = new PlayEventTicket(_price, _place, _dateOfEvent, _gameName);
             
             Assert.True(amazingGame.ToString().Contains($"Price: {_price}\nPlace: {_place}\nDate of event: {_dateOfEvent}\nEvent type: {amazingGame.EventType}"));
         }

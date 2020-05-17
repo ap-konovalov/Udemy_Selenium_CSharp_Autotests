@@ -2,7 +2,7 @@ using System;
 
 namespace Advanced_OO_Topics_11.CodingQuiz
 {
-    public abstract class Ticket
+    public abstract class BaseTicket
     {
         private double _price;
         private int _place;
@@ -13,7 +13,7 @@ namespace Advanced_OO_Topics_11.CodingQuiz
             get;
         }
 
-        protected Ticket(double price, int place, DateTime dateOfEvent)
+        protected BaseTicket(double price, int place, DateTime dateOfEvent)
         {
             _price = price;
             _place = place;

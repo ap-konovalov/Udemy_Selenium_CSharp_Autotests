@@ -2,7 +2,7 @@ using System;
 
 namespace Advanced_OO_Topics_11.CodingQuiz
 {
-    public class MusicalEvent : Ticket
+    public class MusicalEvent : BaseTicket
     {
         public string performer;
         
