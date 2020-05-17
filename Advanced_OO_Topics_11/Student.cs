@@ -11,5 +11,10 @@ namespace Advanced_OO_Topics_11
             _major = major;
             _studentId = studentId;
         }
+
+        public override string HoursOfSleep()
+        {
+            return "A student gets 6 hours of sleep";
+        }
     }
 }
