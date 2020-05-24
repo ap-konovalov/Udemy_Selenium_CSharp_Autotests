@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advanced_OO_Topics_11", "Ad
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces_12", "Interfaces_12\Interfaces_12.csproj", "{726867A9-0AE0-44BC-A16F-B5D6ED88900F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces_12_Tests", "Interfaces_12_Tests\Interfaces_12_Tests.csproj", "{0A4C1849-5EFA-48EB-8E2E-CAF48388932C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,5 +63,9 @@ Global
 		{726867A9-0AE0-44BC-A16F-B5D6ED88900F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{726867A9-0AE0-44BC-A16F-B5D6ED88900F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{726867A9-0AE0-44BC-A16F-B5D6ED88900F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A4C1849-5EFA-48EB-8E2E-CAF48388932C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A4C1849-5EFA-48EB-8E2E-CAF48388932C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A4C1849-5EFA-48EB-8E2E-CAF48388932C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A4C1849-5EFA-48EB-8E2E-CAF48388932C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

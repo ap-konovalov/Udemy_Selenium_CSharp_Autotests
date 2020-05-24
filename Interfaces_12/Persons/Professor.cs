@@ -27,5 +27,13 @@
 		{
 			return 32.00;
 		}
+		
+		public override string ToString()
+		{
+			return base.ToString() + 
+			       $"Destination: {GetDestination()}\n" +
+			       $"Start Location: {GetStartLocation()}\n" +
+			       $"Miles: {DetermineMiles()}\n";
+		}
 	}
 }

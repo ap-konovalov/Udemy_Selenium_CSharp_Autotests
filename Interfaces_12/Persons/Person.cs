@@ -24,5 +24,11 @@ namespace Interfaces_12
         {
             return "A person gets 8 hours of sleep";
         }
+
+        public override string ToString()
+        {
+            return $"First Name: {_firstName}\n" +
+                   $"Last Name: {_lastName}\n";
+        }
     }
 }

@@ -31,5 +31,13 @@ namespace Interfaces_12
         {
             return 24.0;
         }
+
+        public override string ToString()
+        {
+            return base.ToString() + 
+                   $"Destination: {GetDestination()}\n" +
+                   $"Start Location: {GetStartLocation()}\n" +
+                   $"Miles: {DetermineMiles()}\n";
+        }
     }
 }
