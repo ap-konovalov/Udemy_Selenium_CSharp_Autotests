@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array_Coding_Quiz_10", "Arr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advanced_OO_Topics_11", "Advanced_OO_Topics_11\Advanced_OO_Topics_11.csproj", "{69471BB6-1949-4DA2-BA4E-F5BE2BF54C50}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces_12", "Interfaces_12\Interfaces_12.csproj", "{6409EAFA-249B-4D51-A141-2E6DA8727F19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,5 +57,9 @@ Global
 		{69471BB6-1949-4DA2-BA4E-F5BE2BF54C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69471BB6-1949-4DA2-BA4E-F5BE2BF54C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69471BB6-1949-4DA2-BA4E-F5BE2BF54C50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6409EAFA-249B-4D51-A141-2E6DA8727F19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6409EAFA-249B-4D51-A141-2E6DA8727F19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6409EAFA-249B-4D51-A141-2E6DA8727F19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6409EAFA-249B-4D51-A141-2E6DA8727F19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
